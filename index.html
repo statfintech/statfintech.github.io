@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>首頁</title>    
+    <link href="acss/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Custom Theme files -->
+    <script src="js/jquery.min.js"></script>
+    <!--theme-style-->
+    <link href="acss/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//theme-style-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+
+    </script>
+    <!----start-top-nav-script---->
+
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <!--animate-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+
+    </script>
+    <!--//end-animate-->
+
+</head>
+
+<body>
+    <!--header-->
+    <div class="header" id="home">
+        <div class="container">
+            <div class="head">
+                <nav class="navbar navbar-default">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">導覽</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+                        <div class="navbar-brand logo wow fadeInLeft animated" data-wow-delay=".5s" style="padding-top: 10px">
+                            <h1><a href="index.html">F&nbsp;<span>J&nbsp;C&nbsp;</span>U&nbsp;統計資訊學系</a></h1>
+                        </div>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav wow fadeInDown animated" data-wow-delay=".5s">
+                            <li><a href="Flattern/about us.html"><span data-hover="About">關於我們</span> </a> </li>
+                            <li><a href="Flattern/研究背景.html"><span data-hover="services">專案介紹</span> </a> </li>
+                            <li><a href="Flattern/圖表說明.html"><span data-hover="login">敘述統計</span> </a> </li>
+                            <li><a href="Flattern/研究資料.html"><span data-hover="Contact">實證分析</span></a></li>
+							<li><a href="Flattern/成果.html"><span data-hover="Contact">研究成果</span></a></li>
+							<li><a href="Flattern/參考資料.html"><span data-hover="Contact">相關連結</span></a></li>
+                            
+                        </ul>
+                    </div>
+                  
+                    <!-- /.navbar-collapse -->
+                </nav>
+
+            </div>
+            <div class="banner">
+
+                <section class="wrapper wow fadeInUp animated" data-wow-delay=".5s">
+                <h2></h2>
+		  <h3>
+			<div class="popEffect">
+			  <span>第一組專題發表</span>
+			  <span>LSTM及時股票預測模型之研究</span>
+			  <span>Real Time Stock Price Forecasting using LSTM</span>
+			</div>
+		  </h3>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!--content-->
+    <!--<div class="content">
+        <div class="container">
+            <div class="col-top" style="padding-bottom: 50px" id="about">
+                <h3>輔仁大學交換生系統 </h3>
+                <p>為方便輔仁大學 在校生 申請國際交換學生之流程，國際事務處(以下簡稱本處)於2016年9月將建置交換學生系統，供在校生可直接透過系統申請案件；校內評審老師亦可直接透過系統審閱書面資料，並給予書審成績。待申請時間結束後，系統將可依照學生在校成績、語言檢定成績、書審成績、志願序，自動評選出各個學生之錄取學校。</p>
+    
+
+            </div>
+        </div>
+    </div>
+
+            <!---->
+            
+        <!---->
+    <!--<div class="container">
+            <div class="services" id="services">
+                <h3>服務項目</h3>
+                <div class="ser-grid ">
+                    <div class="col-md-4 ser-top wow fadeInLeft animated" data-wow-delay=".5s">
+                        <h5>學生</h5>
+                        <p>首次使用請直接填寫「申請交換學生」資料</p>
+                        <p>登入系統后可修改申請資料、查詢申請狀況</p>
+                        <p>&nbsp;</p>
+                        <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-md-4 ser-top wow fadeInUp animated" data-wow-delay=".5s">
+                        <h5>老師</h5>
+                        <p>登入系統即可審查與評分</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-md-4 ser-top wow fadeInRight animated" data-wow-delay=".5s">
+                        <h5>管理者</h5>
+                        <p>登入系統后可管理如下功能:</p>
+                            <p>申請資料&nbsp;賬號管理&nbsp;交換學校</p>
+                            <p>審查設定&nbsp;修改記錄&nbsp;開放時間</p>
+                        <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        
+            		
+    <!--contact--->
+    <!--<div class="container">
+        <div class="contact" id="contact">
+        <div class="col-md-6 map wow fadeInLeft animated" data-wow-delay=".5s">
+            <div style="padding-top: 83px;padding-left:30px;padding-right: 40px">
+                <img class="img-rounded" style="height:500px; width:500px" src="images/fjuim.jpg" >
+            </div>
+        </div>
+        <div class="col-md-6 contact-form wow fadeInRight animated" data-wow-delay=".5s">
+            <h3>聯絡方式</h3>
+            <div class="col-md-6 contact-top">
+                <form>
+                    <input type="text" placeholder="Your Name" required="">
+                    <input type="text" placeholder="Your Email" required="">
+                    <input type="text" placeholder="Subject" required="">
+                    <textarea placeholder="Your Message" required></textarea>
+                    <label class="hvr-rectangle-out">
+								<input type="submit" value="Send" >
+						</label>
+                </form>
+            </div>
+
+            <div class="col-md-6 contact-left">
+                <div class="address">
+                    <div class=" address-grid">
+                        <i class="glyphicon glyphicon-map-marker"></i>
+                        <div class="address1">
+                            <h6>地址</h6>
+                            <p>24205 新北市新莊區中正路510號輔仁大學</p>
+                            <p>國際及兩岸教育處國際學生中心(耕莘樓113室)</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class=" address-grid ">
+                        <i class="glyphicon glyphicon-phone"></i>
+                        <div class="address1">
+                            <h6>聯絡電話:</h6>
+                            <p>(02)2905-2386 </p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class=" address-grid ">
+                        <i class="glyphicon glyphicon-envelope"></i>
+                        <div class="address1">
+                            <h6>Email:</h6>
+                            <p><a href="mailto:info@example.com">088837@mail.fju.edu.tw</a></p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="clearfix"></div>
+
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    </div>
+    </div>
+    <!--//content-->
+
+    <!--//footer-->
+    <div class="footer">
+
+            <p class="footer-class">Copyright &copy; 輔仁大學統計資訊學系第18屆專題發表第1組</p>
+
+    </div>
+
+    <!--//footer-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            /*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+
+    </script>
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> -->
+    
+</body>
+
+</html>

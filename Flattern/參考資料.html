@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>相關連結</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/bootstrap-responsive.css" rel="stylesheet" />
+  <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+  <link href="css/jcarousel.css" rel="stylesheet" />
+  <link href="css/flexslider.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+
+  <link id="bodybg" href="bodybg/bg1.css" rel="stylesheet" type="text/css" />
+  <!-- Theme skin -->
+  <link href="skins/default.css" rel="stylesheet" />
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
+  <link rel="shortcut icon" href="ico/favicon.png" />
+
+  <!-- =======================================================
+    Theme Name: Flattern
+    Theme URL: https://bootstrapmade.com/flattern-multipurpose-bootstrap-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+  <div id="wrapper" class="boxed">
+    <!-- toggle top area -->
+    <div class="hidden-top">
+      <div class="hidden-top-inner container">
+        <div class="row">
+          <div class="span12">
+            <ul>
+              <li><strong>LSTM及時股票預測模型之研究</strong></li>
+              <li>Real Time Stock Price Forecasting using LSTM</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end toggle top area -->
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <!-- hidden top area toggle link -->
+        <div id="header-hidden-link">
+          <a href="#" class="toggle-link" title="Click me you'll get a surprise" data-target=".hidden-top"><i></i>Open</a>
+        </div>
+        <!-- end toggle link -->
+        <div class="row nomargin">
+          <div class="span12">
+            <div class="headnav">
+            </div>
+            <!-- Signup Modal -->
+            <!--<div id="mySignup" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySignupModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 id="mySignupModalLabel">Create an <strong>account</strong></h4>
+              </div>
+              <div class="modal-body">
+                <form class="form-horizontal">
+                  <div class="control-group">
+                    <label class="control-label" for="inputEmail">Email</label>
+                    <div class="controls">
+                      <input type="text" id="inputEmail" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="inputSignupPassword">Password</label>
+                    <div class="controls">
+                      <input type="password" id="inputSignupPassword" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="inputSignupPassword2">Confirm Password</label>
+                    <div class="controls">
+                      <input type="password" id="inputSignupPassword2" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <button type="submit" class="btn">Sign up</button>
+                    </div>
+                    <p class="aligncenter margintop20">
+                      Already have an account? <a href="#mySignin" data-dismiss="modal" aria-hidden="true" data-toggle="modal">Sign in</a>
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- end signup modal -->
+            <!-- Sign in Modal -->
+            <!--<div id="mySignin" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySigninModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 id="mySigninModalLabel">Login to your <strong>account</strong></h4>
+              </div>
+              <div class="modal-body">
+                <form class="form-horizontal">
+                  <div class="control-group">
+                    <label class="control-label" for="inputText">Username</label>
+                    <div class="controls">
+                      <input type="text" id="inputText" placeholder="Username">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="inputSigninPassword">Password</label>
+                    <div class="controls">
+                      <input type="password" id="inputSigninPassword" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <button type="submit" class="btn">Sign in</button>
+                    </div>
+                    <p class="aligncenter margintop20">
+                      Forgot password? <a href="#myReset" data-dismiss="modal" aria-hidden="true" data-toggle="modal">Reset</a>
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- end signin modal -->
+            <!-- Reset Modal -->
+            <!--<div id="myReset" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="myResetModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 id="myResetModalLabel">Reset your <strong>password</strong></h4>
+              </div>
+              <div class="modal-body">
+                <form class="form-horizontal">
+                  <div class="control-group">
+                    <label class="control-label" for="inputResetEmail">Email</label>
+                    <div class="controls">
+                      <input type="text" id="inputResetEmail" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <button type="submit" class="btn">Reset password</button>
+                    </div>
+                    <p class="aligncenter margintop20">
+                      We will send instructions on how to reset your password to your inbox
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- end reset modal -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="span4">
+            <div class="logo">
+              <a href="../index.html"><img src="img/school.PNG" alt="" class="logo" /></a>
+            </div>
+          </div>
+          <div class="span8">
+            <div class="navbar navbar-static-top">
+              <div class="navigation">
+                <nav>
+                  <ul class="nav topnav">
+                    <li class="dropdown">
+                      <a href="#">關於我們 <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="about us.html">組員介紹</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#">專案介紹 <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="研究背景.html">研究背景&動機</a></li>
+                        <li class="dropdown"><a href="#">研究方法 <i class="icon-angle-right"></i></a>
+                          <ul class="dropdown-menu sub-menu-level1">
+                            <li><a href="研究方法.html">神經網路</a></li>
+                            <li><a href="研究方法_2.html">深層神經網路</a></li>
+                            <li><a href="研究方法_3.html">遞歸神經網路</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#">敘述統計 <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="圖表說明.html">圖表說明</a></li>
+                        <li class="dropdown"><a href="#">蠟燭圖 <i class="icon-angle-right"></i></a>
+                          <ul class="dropdown-menu sub-menu-level1">
+                            <li><a href="蠟燭圖(味全).html">味全(1201)</a></li>
+                            <li><a href="2330.html">台積電(2330)</a></li>
+							<li><a href="2892.html">第一金(2892)</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#">實證分析 <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="研究資料.html">研究資料</a></li>
+                        <li><a href="交易策略.html">交易策略</a></li>
+                        <li><a href="實驗環境.html">實驗環境</a></li>
+                        <li><a href="實驗設計.html">實驗設計</a></li>
+						<li><a href="實證結果.html">實證結果</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#">研究成果 <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="成果.html">結論</a></li>
+                        <li><a href="建議.html">建議</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#">相關連結 <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li class="dropdown"><a href="參考資料.html">參考資料 <i class="icon-angle-right"></i></a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- end navigation -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <section id="inner-headline">
+      <div class="container">
+        <div class="row">
+          <div class="span4">
+            <div class="inner-heading">
+              <h2>參考資料</h2>
+            </div>
+          </div>
+          <div class="span8">
+            <ul class="breadcrumb">
+              <li><a href="../index.html"><i class="icon-home"></i></a><i class="icon-angle-right"></i></li>
+              <li><a href="#">相關連結</a><i class="icon-angle-right"></i></li>
+              <li class="active">參考資料</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="content">
+      <div class="container">
+        <div class="row">
+          <div class="span4">
+            <aside class="left-sidebar">
+              <div class="widget">
+              </div>
+              <div class="widget">
+                <h5 class="widgetheading">參考文獻</h5>
+                <ul class="cat">
+				<li><i class="icon-angle-right"></i><a href="參考資料.html">中文論文</a></li>
+				<li><i class="icon-angle-right"></i><a href="參考資料_2.html">英文論文</a></li>
+				<li><i class="icon-angle-right"></i><a href="參考資料_3.html">網路資料</a></li>
+				</ul>
+              </div>
+              <div class="widget">
+                <!--<h5 class="widgetheading">Latest posts</h5>
+                <ul class="recent">
+                  <li>
+                    <img src="img/dummies/blog/65x65/thumb1.jpg" class="pull-left" alt="" />
+                    <h6><a href="#">Lorem ipsum dolor sit</a></h6>
+                    <p>
+                      Mazim alienum appellantur eu cu ullum officiis pro pri
+                    </p>
+                  </li>
+                  <li>
+                    <a href="#"><img src="img/dummies/blog/65x65/thumb2.jpg" class="pull-left" alt="" /></a>
+                    <h6><a href="#">Maiorum ponderum eum</a></h6>
+                    <p>
+                      Mazim alienum appellantur eu cu ullum officiis pro pri
+                    </p>
+                  </li>
+                  <li>
+                    <a href="#"><img src="img/dummies/blog/65x65/thumb3.jpg" class="pull-left" alt="" /></a>
+                    <h6><a href="#">Et mei iusto dolorum</a></h6>
+                    <p>
+                      Mazim alienum appellantur eu cu ullum officiis pro pri
+                    </p>
+                  </li>
+                </ul>-->
+              </div>
+              <div class="widget">
+                <!--<h5 class="widgetheading">Popular tags</h5>
+                <ul class="tags">
+                  <li><a href="#">Web design</a></li>
+                  <li><a href="#">Trends</a></li>
+                  <li><a href="#">Technology</a></li>
+                  <li><a href="#">Internet</a></li>
+                  <li><a href="#">Tutorial</a></li>
+                  <li><a href="#">Development</a></li>
+                </ul>-->
+              </div>
+            </aside>
+          </div>
+		  <div class="span8">
+		  <div class="row">		  
+              <div class="span6">
+				<div class="post-heading">
+                    <h3><strong>中文論文</strong></h3>
+                </div>
+                <div class="wrapper">
+				  <div class="testimonial">
+					<table class="table">
+					    <thead>
+							<td>文獻作者&年份</td>
+							<td>論文名稱</td>
+							<td>所在地</td>
+						</thead>
+						<tbody>
+							<tr class="success">
+								<td>王宥芯 ( 2016 )</td>
+								<td>建構於可程式化邏輯板實現硬體加速之 Hadoop 叢集用於資料探勘演算法</td>
+								<td>國立中正大學電資工程學系碩士班，嘉義縣</td>
+							</tr>
+							<tr class="error">
+								<td>任君、王建華、王傳美、王建祥
+									( 2018 )</td>
+								<td>基於正則化 LSTM 模型的股票指數預測</td>
+								<td>中國武漢理工大學理學院，湖北武漢</td>
+							</tr>
+							<tr class="warning">
+								<td>呂嘉珮 ( 2007 )</td>
+								<td>台灣之股票股利、訊號假說與股票報酬之研究</td>
+								<td>大同大學事業經營學系碩士班，台北市</td>
+							</tr>
+							<tr class="info">
+								<td>吳佳真 ( 2016 )</td>
+								<td>應用機器學習預測利差交易的收益</td>
+								<td>國立政治大學電算機一學系碩士班，台北市</td>
+							</tr>
+							<tr class="success">
+								<td>何宗燁 ( 2016 )</td>
+								<td>應用平行 K-means 演算法建構股市決策支援系統於 Hadoop 平台</td>
+								<td>中原大學計算機一般學系碩士班，桃園市</td>
+							</tr>
+							<tr class="error">
+								<td>林財印 ( 1999 )</td>
+								<td>應用時間序列在台灣加權股票指數的預測</td>
+								<td>義守大學管理科學系碩士班，高雄市</td>
+							</tr>
+							<tr class="warning">
+								<td>林大為 ( 2014 )</td>
+								<td>以社會網路分析為基礎之股市投資決策支援系統</td>
+								<td>中原大學電算機一般學系碩士班，桃園市</td>
+							</tr>
+							<tr class="info">
+								<td>林永裕 ( 2016 )</td>
+								<td>利用基因演算法及 RHadoop 分析大數據資料之股票預測系統</td>
+								<td>國立勤益科技大學電算機一般學系碩士班，台中市</td>
+							</tr>
+							<tr class="success">
+								<td>林欣宜 ( 2016 )</td>
+								<td>一個基於增強式學習的動態資料驅動系統--以台灣股票市場為例</td>
+								<td>國立交通大學電算機一般學系碩士班，新竹市</td>
+							</tr>
+							<tr class="error">
+								<td>林雋鈜 ( 2017 )</td>
+								<td>應用機器學習於標準普爾指數期貨</td>
+								<td>國立政治大學電算機一般學系碩士班，台北市</td>
+							</tr>
+							<tr class="warning">
+								<td>徐瑞興 ( 2011 )</td>
+								<td>一個可將 MapReduce 程式透通地執行在多個 Hadoop 平台之方法</td>
+								<td>國立成功大學電資工程學系碩士班，台南市</td>
+							</tr>
+							<tr class="info">
+								<td>陳志龍 ( 2006 )</td>
+								<td>運用類神經網路與技術指標預測股票型基金漲跌及交易時機之研究－以臺灣 50 指數股票型基金為例</td>
+								<td>朝陽科技大學電算機一般學系碩士班，台中市</td>
+							</tr>
+							<tr class="success">
+								<td>陳信良 ( 2011 )</td>
+								<td>運用時間數列分解法建構股價預測模型之研究</td>
+								<td>國立臺北大學企業管理學系碩士班，新北市</td>
+							</tr>
+							<tr class="error">
+								<td>陳仲毅 ( 2013 )</td>
+								<td>使用多重任務佇列以改善 Hadoop 中之資料地域性</td>
+								<td>國立成功大學電資工程學系，台南市</td>
+							</tr>
+							<tr class="warning">
+								<td>陳禹蓁 ( 2017 )</td>
+								<td>Spark 之社群網絡分析工具於交易策略之應用</td>
+								<td>東吳大學其他數學及統計學系碩士班，台北市</td>
+							</tr>
+							<tr class="info">
+								<td>陳煜文 ( 2018 )</td>
+								<td>以委託單資料預測當日股價趨勢-- LSTM 類神經網路模型之應用</td>
+								<td>輔仁大學財務金融系碩士班，新北市</td>
+							</tr>
+							<tr class="success">
+								<td>許仁和 ( 2016 )</td>
+								<td>在大數據架構下應用股市新聞進行股市交易分析之研究</td>
+								<td>國立高雄第一科技大學電算機一般學系碩士班，高雄市</td>
+							</tr>
+							<tr class="error">
+								<td>黃心怡 ( 2016 )</td>
+								<td>實現雲端運算 Hadoop MapReduce 之分級服務</td>
+								<td>輔仁大學電資工程學系，新北市</td>
+							</tr>
+							<tr class="warning">
+								<td>黃書瑋 ( 2016 )</td>
+								<td>建構 GDELT 數位新聞分析流程於 Spark 大數據平台：以新聞事件影響力探究美 S&P 股市指數變化為例</td>
+								<td>國立政治大學電資工程學系碩士班，台北市</td>
+							</tr>
+							<tr class="info">
+								<td>彭弈文 ( 2018 )</td>
+								<td>CPU - GPU 異質運算架構之平行演算法設計與研究</td>
+								<td>國立科技大學電資工程系碩士班，台北市</td>
+							</tr>
+							<tr class="success">
+								<td>劉昭雨 ( 2006 )</td>
+								<td>卷積神經網路在金融技術指標之應用</td>
+								<td>國立東華大學資訊工程系碩士班，花蓮縣</td>
+							</tr>
+							<tr class="error">
+								<td>劉品汝 ( 2017 )</td>
+								<td>以 Spark 之文字探勘工具探討財經新聞標題與股市波動度之關聯</td>
+								<td>東吳大學其他數學及統計學系碩士班，台北市</td>
+							</tr>
+							<tr class="warning">
+								<td>蔡博堯 ( 2015 )</td>
+								<td>基於 Hadoop 之網際網路訊務萃取器設計與實作</td>
+								<td>國立臺灣科技大學電資工程學系，台北市</td>
+							</tr>
+							<tr class="info">
+								<td>蔡安廸 ( 2017 )</td>
+								<td>GPU 加速特徵臉之人臉辨識系統</td>
+								<td>國立中山大學電機工程學系碩士班，高雄市。</td>
+							</tr>
+							<tr class="success">
+								<td>戴志涵 ( 2013 )</td>
+								<td>應用 GPU 於提升類神經網路訓練速度之研究-以學習障礙鑑定為例</td>
+								<td>國立彰化師範大學電算機一般學系碩士班，彰化縣</td>
+							</tr>
+							<tr class="error">
+								<td>謝沛宇 ( 2012 )</td>
+								<td>運用 GA-SVR 方法結合技術與市場情緒指標於臺灣上市電子股股價預測</td>
+								<td>元智大學電算機一般學系碩士班，桃園</td>
+							</tr>
+							<tr class="warning">
+								<td>蘇柏丞 ( 2016 )</td>
+								<td>在 GPU 上進行巨量生物序列比對運算之策略研究</td>
+								<td>國立臺灣科技大學電資工程學系碩士班，台北市</td>
+							</tr>
+						</tbody>
+					</table>				
+				  </div>
+                  </div>
+                </div>
+              </div>
+		  
+		    <br><br><br>
+			<div id="pagination">
+              <span class="all">Page 1 of 3</span>
+			  <span class="current">1</span>			  
+              <a href="參考資料_2.html" class="inactive">2</a>  
+              <a href="參考資料_3.html" class="inactive">3</a>			  
+            </div>
+		   </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!--<div id="sub-footer">
+        <div class="container">
+          <div class="row">
+            <div class="span6">
+              <div class="copyright">
+                <p>
+                  <span>&copy; Flattern - All right reserved.</span>
+                </p>
+                <div class="credits">
+                  <!--
+                    All the links in the footer should remain intact.
+                    You can delete the links only if you purchased the pro version.
+                    Licensing information: https://bootstrapmade.com/license/
+                    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Flattern
+                  
+                  Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
+              </div>
+            </div>
+            <div class="span6">
+              <ul class="social-network">
+                <li><a href="#" data-placement="bottom" title="Facebook"><i class="icon-facebook icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Twitter"><i class="icon-twitter icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Linkedin"><i class="icon-linkedin icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Pinterest"><i class="icon-pinterest icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Google plus"><i class="icon-google-plus icon-square"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>-->
+  </div>
+  <a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-32 active"></i></a>
+  <!-- javascript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/jcarousel/jquery.jcarousel.min.js"></script>
+  <script src="js/jquery.fancybox.pack.js"></script>
+  <script src="js/jquery.fancybox-media.js"></script>
+  <script src="js/google-code-prettify/prettify.js"></script>
+  <script src="js/portfolio/jquery.quicksand.js"></script>
+  <script src="js/portfolio/setting.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/jquery.nivo.slider.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/jquery.ba-cond.min.js"></script>
+  <script src="js/jquery.slitslider.js"></script>
+  <script src="js/animate.js"></script>
+
+  <!-- Template Custom JavaScript File -->
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
